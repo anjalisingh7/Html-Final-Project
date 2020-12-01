@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Diary</title>
+    <style>
+        .heading{
+            background-color:coral;
+            color:white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align:center;
+            
+        }
+        #one{
+            padding-right: 30px;
+        }
+        #two{
+            padding-right: 30px;
+        }
+        #three{
+            padding-right: 30px;
+        }
+        #table{
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+        .caption{
+            text-align:center;
+            margin-top:0px;
+            background-color:snow;
+            padding:2px;
+            
+    
+        }
+        .image-item{
+        
+            margin:auto;
+            padding:4px;
+            padding-bottom:0px;
+            
+        }
+        footer{
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+        }
+    </style>
+    </head>
+    <body style="margin:0;background-color:snow;">
+        <nav class="heading">
+           <a href="first.html" id="one" >TRIPS</a>
+           <a href="about.html" id="two">ABOUT</a>
+           <a href="contact.html" id="three">CONTACT</a>
+        </nav>
+        <div>
+            <img src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/05/20172622/ce-travel.jpg " alt="Travel destinations" height="300px" width="1280px">
+        </div>
+            <h1 style="text-align:center;font:bold;font-weight:700;font-size:30">My Travel Diary</h1>
+                <table id="table">
+                    <tr>
+                        <td>
+                            <div>
+                                <a href="first.html" id="one" >
+                                <img class="image-item" src="https://assets.kpmg/content/dam/kpmg/xx/images/2019/05/white-buildings-near-blue-water-oia-santorini-greece.jpg/jcr:content/renditions/cq5dam.web.512.341.jpg" alt="Greece" height="200" width="250">
+                                <p class="caption">Greece</p> </a>
+                        </td>
+                        <td>
+                            <a href="first.html" id="#two" >
+                            <img  class="image-item"src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRa1WAR_t6JYUDXkQ6L_M3N5zYFZ5aWk25Z8g&usqp=CAU" alt="Spain" height="200" width="250">
+                            <p class="caption">Spain</p></a>
+
+                       </td>
+                       <td>
+                        <a href="first.html" id="three" >
+                           <img class="image-item" src="https://qtxasset.com/styles/breakpoint_sm_default_480px_w/s3/Hotel%20Management-1508949476/mercuremaldiveskoodooresortmaldivesexterior.jpg?WWgDUsRsMcW_pe0hMJIE2bW06qaPPNMI&itok=U5WkdR5g" alt="Maldives" height="200" width="250">
+                           <p class="caption">Maldives</p></a>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="first.html" id="four" >
+                            <img  class="image-item"src="https://www.counterpointresearch.com/wp-content/uploads/2019/05/France-Smartphone-Market.jpg" alt="France" height="200" width="250">
+                            <p class="caption">France</p></a>
+                        </td>
+                        <td>
+                            <a href="first.html" id="five" >
+                            <img class="image-item" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20200929151728&q=80&rw=750&rh=536" alt="Japan" height="200" width="250">
+                            <p class="caption">Japan</p></a>
+                        </td>
+                        <td>
+                            <a href="first.html" id="six" >
+                            <img  class="image-item"src="https://www.telegraph.co.uk/content/dam/Travel/2019/September/nz.jpg" alt="Newzealand" height="200" width="250">
+                            <p class="caption">New Zealand</p></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="first.html" id="seven" >
+                            <img  class="image-item"src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1192,w_2121,x_0,y_111/f_auto,q_auto,w_1100/v1554702761/shape/mentalfloss/573469.istock-663874486.jpg" alt="Iceland" height="200" width="250">
+                            <p class="caption">Iceland</p></a>
+                        </td>
+                        <td>
+                            <a href="first.html" id="eight">
+                            <img  class="image-item"src="https://www.whitecase.com/sites/default/files/images/sidebar/2019/03/uae_desktop_800x1280.jpg" alt="UAE" height="200" width="250">
+                            <p class="caption">UAE</p></a>
+                        </td>
+                        <td>
+                            <a href="first.html" id="nine" >
+                            <img  class="image-item"src="https://i0.wp.com/www.mobileworldlive.com/wp-content/uploads/2019/12/Brazil.png?fit=650%2C400&ssl=1" alt="Brazil" height="200" width="250">
+                            <p class="caption">Brazil</p></a>
+                            </td>
+                    </tr>
+                </table>
+            <footer>
+                <p>Developed By Anjali Singh</p>
+            </footer>
+    </body>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .heading{
+                background-color:coral;
+                color:white;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align:center;
+                
+            }
+            #one{
+            padding-right: 30px;
+            }
+            #two{
+            padding-right: 30px;
+            }
+            #three{
+            padding-right: 30px;
+            }
+            footer{
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+        }
+        .inputbox{
+        Font-Size: 18px;
+       Padding-Bottom: 12px;
+       Margin-Bottom: 36px;
+       Border-Top:0px;
+       border-bottom:0px;
+       border-Left:0px;
+       border-Right:0px;
+       border-bottom: 1px solid #ccc;
+        width:100%;
+      }
+      #input-wrapper{
+        Padding-Top: 80px;
+        Padding-Bottom: 80px;
+        padding-Left: 80px;
+        padding-right:80px;
+      }
+      #sub{
+        padding-Top:12px;
+        padding-Bottom: 12px;
+       Padding-Left:24px;
+        padding-Right: 24px;
+       Font-Size: 18px;
+       background-color: #008CBA;
+       Border: None;
+       color: white;
+      }
+            </style>
+        </head>
+        <body style="margin:0;
+             background-color:snow;">
+            <nav class="heading">
+               <a href="first.html" id="one" >TRIPS</a>
+               <a href="about.html" id="two">ABOUT</a>
+               <a href="contact.html" id="three">CONTACT</a>
+               </nav>
+               <h1 style="text-align:center">Wanna join me on my adventures?! Contact me! </h1>
+               <form style="background-color:white;margin-left:auto;margin-right:auto;width:700px;border-width:1p solid #ccc ;text-align:center">
+                    <div id="input-wrapper">
+                        <div>
+                      <input class="inputbox"
+                          type="text" name="Fullname" placeholder="Full name"><br>
+                      </div>
+                      <div>                      <input class="inputbox"
+                           type="text" name="email" placeholder="Email">
+                      </div>
+                      <div>
+                      <input class="inputbox"
+                          type="phonenumber" name="contactnumber" placeholder="Contact Number">
+                      </div>
+                      <div>
+                        <button style="background-color:steelblue; border-color:blue; color:white">Submit</button>
+                      </div>
+                      
+                      </div>
+               </form>
+               <footer>
+                <p>Developed By Anjali Singh</p>
+              </footer>
+        </body>
+    </html>
